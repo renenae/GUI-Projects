@@ -24,11 +24,11 @@ def mainMenu():
     LMain = Label(top, text = "Block 5 GUI Projects")
     LMain.grid(column = 0, row = 1)
     B1Main = Button(text= "Week 1", bg= "white", command = week1)
-    B1.grid(column= 0, row = 2)
+    B1Main.grid(column= 0, row = 2)
     B2Main = Button(text = "Week 2", bg= "white")
-    B2.grid(column= 0, row = 3)
+    B2Main.grid(column= 0, row = 3)
     B3Main = Button(text = "Week 3", bg= "white")
-    B3.grid(column= 0, row = 4)
+    B3Main.grid(column= 0, row = 4)
 
 def week1():
     clearwindow()
@@ -57,6 +57,21 @@ def week1():
 
     Bexit = Button(text = "Clear Window", bg ="red", command= mainMenu)
     Bexit.grid(column= 1, row= 3)
+
+def week2():
+    clearWindow()
+    B1Week2 = Button()
+    L1Week2 = Label()
+    L2Week2 = Label()
+    L3Week2 = Label()
+    E1Week2 = Entry()
+    E2Week2 = Entry()
+
+
+
+
+
+
 
 
 if __name__=="__main__":
